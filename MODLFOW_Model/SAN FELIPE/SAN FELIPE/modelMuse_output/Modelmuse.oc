@@ -1,0 +1,12 @@
+# Output Control file created on 20-10-2026 by ModelMuse version 5.4.0.0.
+BEGIN OPTIONS
+  BUDGET FILEOUT 'Modelmuse.cbc'
+  HEAD FILEOUT 'Modelmuse.bhd'
+END OPTIONS
+
+BEGIN PERIOD      1
+  SAVE HEAD ALL
+  PRINT BUDGET ALL
+  SAVE BUDGET ALL
+END PERIOD 
+

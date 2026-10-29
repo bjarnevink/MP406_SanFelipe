@@ -1,0 +1,4 @@
+if not exist "..\..\output\NUL" mkdir "..\..\output"
+if not exist "..\..\output\output.Modelmuse\NUL" mkdir "..\..\output\output.Modelmuse"
+..\..\bin\mf6.exe
+pause

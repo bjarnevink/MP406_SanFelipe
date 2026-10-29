@@ -1,0 +1,12 @@
+# CHD: Time-Variant Specified-Head package file created on 20-10-2026 by ModelMuse version 5.4.0.0.
+BEGIN OPTIONS
+    AUXILIARY IFACE
+    BOUNDNAMES
+    PRINT_INPUT
+    SAVE_FLOWS
+END OPTIONS
+
+BEGIN DIMENSIONS
+  MAXBOUND     0
+END DIMENSIONS
+

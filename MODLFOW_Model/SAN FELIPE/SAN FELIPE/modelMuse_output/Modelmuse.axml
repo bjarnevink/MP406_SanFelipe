@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Model_Archive_List>
+  <bin Model_Name="Modelmuse" FileType="bin">
+    <FileName Model_Name="Modelmuse" FileType="bin">..\..\INUNDACION_24H\exe\mf6.exe</FileName>
+  </bin>
+  <ancillary Model_Name="Modelmuse" FileType="ancillary">
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\ModelMuse\Int.asc</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\ModelMuse\Interpolated_correct.asc</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\ModelMuse\Interpolated_IDW_correct_p2.asc</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\ModelMuse\Interpolated_IDW_correct_p50.asc</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\ModelMuse\Recharge.dbf</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\ModelMuse\Recharge.prj</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\ModelMuse\Recharge.shp</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\ModelMuse\Recharge.shx</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\SAN_FELIPE\SAN_FELIPE\shapes\SanFelipe.dbf</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\SAN_FELIPE\SAN_FELIPE\shapes\SanFelipe.prj</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\SAN_FELIPE\SAN_FELIPE\shapes\SanFelipe.shp</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\SAN_FELIPE\SAN_FELIPE\shapes\SanFelipe.shx</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\Closedsystem1.dbf</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\Closedsystem1.prj</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\Closedsystem1.shp</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\Closedsystem1.shx</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\ModelMuse\Coastline.dbf</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\ModelMuse\Coastline.prj</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\ModelMuse\Coastline.shp</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\ModelMuse\Coastline.shx</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\ModelMuse\SanFelipe_closertobarrier.dbf</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\ModelMuse\SanFelipe_closertobarrier.prj</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\ModelMuse\SanFelipe_closertobarrier.shp</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\MDP San Felipe\MODFLOW 6\ModelMuse\SanFelipe_closertobarrier.shx</FileName>
+    <FileName Model_Name="Modelmuse" FileType="ancillary">..\..\Users\Davida van Krimpen\OneDrive - Delft University of Technology\Mexico\ModelMuse\Modelmuse.gpt</FileName>
+  </ancillary>
+  <model Model_Name="Modelmuse" FileType="Model Input">
+    <FileName Model_Name="Modelmuse" FileType="Model Input">mfsim.nam</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">Modelmuse.chd</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">Modelmuse.dis</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">Modelmuse.gsf</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">Modelmuse.ic</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">Modelmuse.ims</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">Modelmuse.nam.archive</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">Modelmuse.npf</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">Modelmuse.oc</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">Modelmuse.rch</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">Modelmuse.tdis</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">RunModflow.Bat.archive</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Input">usgs.Modelmuse.reference</FileName>
+  </model>
+  <output Model_Name="Modelmuse" FileType="Model Output">
+    <FileName Model_Name="Modelmuse" FileType="Model Output">mfsim.lst</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Output">Modelmuse.bhd</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Output">Modelmuse.cbc</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Output">Modelmuse.dis.grb</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Output">Modelmuse.InnerSolution.CSV</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Output">Modelmuse.lst</FileName>
+    <FileName Model_Name="Modelmuse" FileType="Model Output">Modelmuse.OuterSolution.CSV</FileName>
+  </output>
+</Model_Archive_List>

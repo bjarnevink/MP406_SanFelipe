@@ -1,0 +1,265 @@
+                                   MODFLOW 6
+                U.S. GEOLOGICAL SURVEY MODULAR HYDROLOGIC MODEL
+                     VERSION 6.8.0+8680167.dirty 09/02/2026
+
+   MODFLOW 6 compiled Sep 02 2026 19:56:32 with Intel(R) Fortran Intel(R) 64
+   Compiler Classic for applications running on Intel(R) 64, Version 2021.6.0
+                             Build 20220226_000000
+
+This software has been approved for release by the U.S. Geological 
+Survey (USGS). Although the software has been subjected to rigorous 
+review, the USGS reserves the right to update the software as needed 
+pursuant to further analysis and review. No warranty, expressed or 
+implied, is made by the USGS or the U.S. Government as to the 
+functionality of the software and related material nor shall the 
+fact of release constitute any such warranty. Furthermore, the 
+software is released on condition that neither the USGS nor the U.S. 
+Government shall be held liable for any damages resulting from its 
+authorized or unauthorized use. Also refer to the USGS Water 
+Resources Software User Rights Notice for complete use, copyright, 
+and distribution information.
+
+
+As a work of the United States Government, this USGS product is 
+in the public domain within the United States. You can copy, 
+modify, distribute, and perform the work, even for commercial 
+purposes, all without asking permission. Additionally, USGS 
+waives copyright and related rights in the work worldwide 
+through CC0 1.0 Universal Public Domain Dedication 
+(https://creativecommons.org/publicdomain/zero/1.0/).
+
+The following GNU Lesser General Public License (LGPL) libraries
+are used in this USGS product:
+
+    SPARSKIT version 2.0
+      ilut, luson, and qsplit 
+      (https://www-users.cse.umn.edu/~saad/software/SPARSKIT/)
+
+    RCM - Reverse Cuthill McKee Ordering
+      (https://people.math.sc.edu/Burkardt/f_src/rcm/rcm.html)
+
+    BLAS - Basic Linear Algebra Subprograms Level 1
+      (https://people.math.sc.edu/Burkardt/f_src/blas1_d/blas1_d.html)
+
+    SPARSEKIT - Sparse Matrix Utility Package
+      amux, dperm, dvperm, rperm, and cperm
+      (https://people.sc.fsu.edu/~jburkardt/f77_src/sparsekit/sparsekit.html)
+
+The following BSD-3 License libraries are used in this USGS product:
+
+    Modern Fortran DAG Library
+      Copyright (c) 2018, Jacob Williams
+      All rights reserved.
+      (https://github.com/jacobwilliams/daglib)
+
+MODFLOW 6 compiler options: /Isrc\libmf6_external.a.p /Isrc\libmf6core.a.p
+/Isrc /I..\src /I. /MT /nologo /warn:general /warn:truncated_source
+/stand:f18 /O3 /fpe:0 /heap-arrays:0 /traceback /fpp /Qdiag-disable:7416
+/Qdiag-disable:7025 /Qdiag-disable:5268 /Qdiag-disable:10448
+/Fdsrc\libmf6core.a.p\Utilities_compilerversion.F90.pdb
+/module:src\libmf6core.a.p
+/Fosrc/libmf6core.a.p/Utilities_compilerversion.F90.obj /c
+
+System command used to initiate simulation:
+C:\INUNDACION_24H\exe\mf6.exe
+
+MODFLOW was compiled using uniform precision.
+
+Real Variables
+  KIND: 8
+  TINY (smallest non-zero value):    2.225074-308
+  HUGE (largest value):    1.797693+308
+  PRECISION: 15
+  SIZE IN BITS: 64
+
+Integer Variables
+  KIND: 4
+  HUGE (largest value): 2147483647
+  SIZE IN BITS: 32
+
+Long Integer Variables
+  KIND: 8
+  HUGE (largest value): 9223372036854775807
+  SIZE IN BITS: 64
+
+Logical Variables
+  KIND: 4
+  SIZE IN BITS: 32
+ 
+
+ OPENED mfsim.nam
+ FILE TYPE:NAM6               UNIT 1001   STATUS:OLD                 
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+ ACTION:READ                
+
+
+ OPENED Modelmuse.tdis
+ FILE TYPE:TDIS6              UNIT 1002   STATUS:OLD                 
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+ ACTION:READ                
+
+ Loading input for SIM/TDIS
+ # TDIS file created on 20-10-2026 by ModelMuse version 5.4.0.0.
+   String detected: TIME_UNITS = MINUTES
+   Integer detected: NPER = 1
+   Double precision 1D constant array detected: PERLEN = 1.000000000000000
+   Integer 1D constant array detected: NSTP = 1
+   Double precision 1D constant array detected: TSMULT = 1.000000000000000
+ Loading input complete...
+
+ OPENED Modelmuse.nam
+ FILE TYPE:GWF6               UNIT 1003   STATUS:OLD                 
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+ ACTION:READ                
+
+ Loading input for MODFLOW/NAM
+ # Name File for MODFLOW created on 20-10-2026 by ModelMuse Version 5.4.0.0
+   String detected: LIST = Modelmuse.lst
+   Keyword detected: PRINT_INPUT
+   Keyword detected: SAVE_FLOWS
+ Loading input complete...
+
+ OPENED Modelmuse.dis
+ FILE TYPE:DIS6               UNIT 1004   STATUS:OLD                 
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+ ACTION:READ                
+
+ Loading input for MODFLOW/DIS
+ # Discretization File created on 20-10-2026 by ModelMuse version 5.4.0.0.
+ # Upper left corner: (371920.962606885, 2385590.37672085)
+ # Lower left corner: (371920.962606885, 2384530.37672085)
+ # Upper right corner: (372855.962606885, 2385590.37672085)
+ # Lower right corner: (372855.962606885, 2384530.37672085)
+ # Grid angle (in degrees counterclockwise): 0
+ # Number of active cells = 23566.
+   String detected: LENGTH_UNITS = METERS
+   Double detected: XORIGIN = 371920.9626069000
+   Double detected: YORIGIN = 2384530.376721000
+   Double detected: ANGROT = .000000000000000
+   Integer detected: NLAY = 1
+   Integer detected: NROW = 212
+   Integer detected: NCOL = 187
+   Double precision 1D constant array detected: DELR = 5.000000000000000
+   Double precision 1D constant array detected: DELC = 5.000000000000000
+   Double precision 2D array detected: TOP ranges from -.6203460982069000E-01 to .7899116897583000
+   Double precision 3D constant array detected: BOTM = -6.000000000000000
+   Integer 3D array detected: IDOMAIN ranges from 0 to 1
+ Loading input complete...
+
+ OPENED Modelmuse.npf
+ FILE TYPE:NPF6               UNIT 1005   STATUS:OLD                 
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+ ACTION:READ                
+
+ Loading input for MODFLOW/NPF
+ # NPF: Node Property Flow package file created on 20-10-2026 by ModelMuse version 5.4.0.0.
+   Keyword detected: SAVE_FLOWS
+   Keyword detected: SAVE_SPECIFIC_DISCHARGE
+   Keyword detected: SAVE_SATURATION
+   Integer 1D constant array detected: ICELLTYPE = 0
+   Double precision 1D constant array detected: K = .3324000000000000E-01
+   Double precision 1D constant array detected: K33 = .3324000000000000E-02
+   Double precision 1D constant array detected: K22 = .3324000000000000E-01
+   Double precision 1D constant array detected: ANGLE1 = .000000000000000
+   Double precision 1D constant array detected: ANGLE2 = .000000000000000
+   Double precision 1D constant array detected: ANGLE3 = .000000000000000
+ Loading input complete...
+
+ OPENED Modelmuse.ic
+ FILE TYPE:IC6                UNIT 1006   STATUS:OLD                 
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+ ACTION:READ                
+
+ Loading input for MODFLOW/IC
+ # Initial Conditions Package file created on 20-10-2026 by ModelMuse version 5.4.0.0.
+   Double precision 1D constant array detected: STRT = 1.000000000000000
+ Loading input complete...
+
+ OPENED Modelmuse.oc
+ FILE TYPE:OC6                UNIT 1007   STATUS:OLD                 
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+ ACTION:READ                
+
+ Loading input for MODFLOW/OC
+ # Output Control file created on 20-10-2026 by ModelMuse version 5.4.0.0.
+   String detected: BUDGETFILE = Modelmuse.cbc
+   String detected: HEADFILE = Modelmuse.bhd
+ Loading input complete...
+
+ OPENED Modelmuse.rch
+ FILE TYPE:RCH6               UNIT 1009   STATUS:OLD                 
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+ ACTION:READ                
+
+ Loading input for MODFLOW/RCH-1
+ # RCH: Recharge package file created on 20-10-2026 by ModelMuse version 5.4.0.0.
+    AUXILIARY  VARIABLE: IFACE           
+   Keyword detected: PRINT_INPUT
+   Keyword detected: SAVE_FLOWS
+   Keyword detected: BOUNDNAMES
+   Keyword detected: FIXED_CELL
+   Integer detected: MAXBOUND = 0
+ Loading input complete...
+
+ OPENED Modelmuse.chd
+ FILE TYPE:CHD6               UNIT 1011   STATUS:OLD                 
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+ ACTION:READ                
+
+ Loading input for MODFLOW/CHD-1
+ # CHD: Time-Variant Specified-Head package file created on 20-10-2026 by ModelMuse version 5.4.0.0.
+    AUXILIARY  VARIABLE: IFACE           
+   Keyword detected: BOUNDNAMES
+   Keyword detected: PRINT_INPUT
+   Keyword detected: SAVE_FLOWS
+   Integer detected: MAXBOUND = 0
+ Loading input complete...
+
+ READING SIMULATION OPTIONS
+    MAXIMUM NUMBER OF ERRORS THAT WILL BE STORED IS 1000
+ END OF SIMULATION OPTIONS
+
+ READING SIMULATION TIMING
+
+ TDIS -- TEMPORAL DISCRETIZATION PACKAGE,
+ VERSION 1 : 11/13/2014 - INPUT READ FROM MEMPATH: __INPUT__/SIM/TDIS                                
+ PROCESSING TDIS OPTIONS
+    SIMULATION TIME UNIT IS MINUTES
+ END OF TDIS OPTIONS
+ PROCESSING TDIS DIMENSIONS
+    1 STRESS PERIOD(S) IN SIMULATION
+ END OF TDIS DIMENSIONS
+ PROCESSING TDIS PERIODDATA
+
+
+ STRESS PERIOD     LENGTH       TIME STEPS     MULTIPLIER FOR DELT
+ ----------------------------------------------------------------------------
+        1         1.000000          1                    1.000
+ END OF TDIS PERIODDATA
+ END OF SIMULATION TIMING
+
+ READING SIMULATION MODELS
+    GWF6 model 1 will be created
+ END OF SIMULATION MODELS
+
+ READING SIMULATION EXCHANGES
+ END OF SIMULATION EXCHANGES
+
+ READING SOLUTIONGROUP
+
+ Creating solution: SLN_1           
+
+ OPENED Modelmuse.ims
+ FILE TYPE:IMS   UNIT 1013   STATUS:OLD                 
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+ ACTION:READ                
+
+ END OF SOLUTIONGROUP
+
+ERROR REPORT:
+
+  1. MAXBOUND must be an integer greater than zero.
+
+UNIT ERROR REPORT:
+
+  1. ERROR OCCURRED WHILE READING FILE 'Modelmuse.rch'
